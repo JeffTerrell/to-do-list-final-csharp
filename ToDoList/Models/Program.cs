@@ -37,6 +37,7 @@ class ToDoListUI
       {
       Console.WriteLine("Updated 'To Do List'" + thisItem.Description);
       }
+      Main();
     }
     else 
     {
