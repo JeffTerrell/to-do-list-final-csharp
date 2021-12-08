@@ -33,9 +33,11 @@ class ToDoListUI
     }
     else if ( userInput == "View")
     {  
+      int listOrderView = 1;
+      Console.WriteLine("Updated 'To Do List'");
       foreach (Item thisItem in result)
       {
-      Console.WriteLine("Updated 'To Do List'" + thisItem.Description);
+      Console.WriteLine(listOrderView++ + ". " + thisItem.Description);
       }
       Main();
     }
