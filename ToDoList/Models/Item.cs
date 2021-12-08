@@ -4,7 +4,7 @@ namespace ToDoList.Models
 {
   public class Item
   {
-    public string Description { get; set;} // public string Description = ""; ***this also works instead of using "get" and is much simpler logic***
+    public string Description = ""; //{ get; set;} // public string Description = ""; ***this also works instead of using "get" and is much simpler logic***
     private static List<Item> _instances = new List<Item> {};
     public Item(string description)
     {
@@ -23,3 +23,4 @@ namespace ToDoList.Models
     }
   }
 }
+
