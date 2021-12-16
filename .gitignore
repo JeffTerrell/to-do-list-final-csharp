@@ -1,4 +1,3 @@
-ToDoList/obj/
-ToDoList/bin/
-ToDoList.Tests/obj/
-ToDoList.Tests/bin/
+obj/
+bin/
+.vscode
